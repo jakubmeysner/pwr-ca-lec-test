@@ -48,9 +48,12 @@ watch(() => store.questionId, () => {
                     :key="answer.id"
                     :active="answer.id === answerId"
                     :base-color="answerId !== null ? (answer.correct ? 'success' : 'error') : undefined"
-                    :title="answer.answer"
                     @click="answerQuestion(answer.id, answer.correct)"
-                />
+                >
+                    <v-list-item-title class="text-wrap">
+                        {{ answer.answer }}
+                    </v-list-item-title>
+                </v-list-item>
             </v-list>
 
             <v-img

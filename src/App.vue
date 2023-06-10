@@ -13,7 +13,7 @@ const store = useStore()
         <app-bar />
 
         <v-main>
-            <v-container maxwidth="400">
+            <v-container style="max-width: 1000px">
                 <home v-if="store.questionId === null" />
                 <question v-else />
 
