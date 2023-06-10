@@ -53,6 +53,12 @@ watch(() => store.questionId, () => {
                 />
             </v-list>
 
+            <v-img
+                v-if="question.image !== undefined"
+                :src="question.image"
+                class="mt-2 mb-6"
+            />
+
             <v-btn
                 v-if="answerId !== null"
                 :block="true"

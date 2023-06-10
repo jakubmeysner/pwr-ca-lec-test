@@ -1635,6 +1635,7 @@
     {
         "id": 64,
         "question": "Jaka będzie wartość rejestru $11 po zakończeniu wykonania kodu?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1661,6 +1662,7 @@
     {
         "id": 65,
         "question": "Która z powyższych instrukcji jest pseudoinstrukcją?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1687,6 +1689,7 @@
     {
         "id": 66,
         "question": "O ile bajtów zwiększy się $pc po wykonaniu instrukcji 1?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1713,6 +1716,7 @@
     {
         "id": 67,
         "question": "Na co będzie wskazywał adres $ra po wykonaniu instrukcji w linii 4?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1739,6 +1743,7 @@
     {
         "id": 68,
         "question": "Ile pamięci będzie zajmował powyższy kod w pamięci?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1765,6 +1770,7 @@
     {
         "id": 69,
         "question": "Jaka będzie wartość rejestru $9 po zakończeniu wykonania kodu?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
@@ -1791,6 +1797,7 @@
     {
         "id": 70,
         "question": "Ile pamięci będzie zajmował powyższy kod w pamięci?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
         "answers": [
             {
                 "id": 1,
