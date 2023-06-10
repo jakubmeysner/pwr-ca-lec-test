@@ -79,7 +79,7 @@
     },
     {
         "id": 4,
-        "question": "Architektura RISC w porównaniu z architekturą CISC (np",
+        "question": "Architektura RISC w porównaniu z architekturą CISC (np. MIPS vs Intel x86-64):",
         "answers": [
             {
                 "id": 1,
@@ -833,7 +833,7 @@
     },
     {
         "id": 33,
-        "question": "W $1 znajduje się liczba 7, a w $2 liczba 42",
+        "question": "W $1 znajduje się liczba 7, a w $2 liczba 42. Po wykonaniu instrukcji add $0, $1, $2 w $0 znajduje się:",
         "answers": [
             {
                 "id": 1,
@@ -1270,7 +1270,7 @@
     },
     {
         "id": 50,
-        "question": "Czy można uruchomić program napisany w języku wysokiego poziomu (np",
+        "question": "Czy można uruchomić program napisany w języku wysokiego poziomu (np. C++) stworzony dla architektury CISC na architekturze RISC?",
         "answers": [
             {
                 "id": 1,

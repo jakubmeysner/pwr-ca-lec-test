@@ -32,7 +32,7 @@ async function readQuestion(filename) {
 
     return {
         id: parseInt(lines[1].split(".")[0]),
-        question: lines[1].split(".")[1].trim(),
+        question: lines[1].split("\t")[1].trim(),
         answers: lines.slice(2).map((line, index) => {
             return {
                 id: index + 1,
