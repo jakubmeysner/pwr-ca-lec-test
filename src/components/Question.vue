@@ -7,11 +7,11 @@ import { shuffle } from "@/util/random"
 const store = useStore()
 
 const question = computed(
-    () => questions.find(question => question.id === store.questionId),
+    () => questions.find(question => question.id === store.questionId)!,
 )
 
 const answers = computed(
-    () => question.value!.noAnswerShuffle ? question.value!.answers : shuffle([...question.value!.answers]),
+    () => question.value.noAnswerShuffle ? question.value.answers : shuffle([...question.value.answers]),
 )
 
 const answerId = ref<number | null>(null)
@@ -21,12 +21,12 @@ function answerQuestion(id: number, correct?: boolean) {
         answerId.value = id
 
         if (correct) {
-            store.questionProgress[question.value!.id] = (
-                store.questionProgress[question.value!.id] ?? 0
+            store.questionProgress[question.value.id] = (
+                store.questionProgress[question.value.id] ?? 0
             ) + 1
         } else {
-            store.questionProgress[question.value!.id] = (
-                store.questionProgress[question.value!.id] ?? 0
+            store.questionProgress[question.value.id] = (
+                store.questionProgress[question.value.id] ?? 0
             ) - 1
         }
     }
@@ -40,7 +40,7 @@ watch(() => store.questionId, () => {
 <template>
     <v-card title="Pytanie">
         <template #text>
-            <p class="text-body-1">{{ question!.question }}</p>
+            <p class="text-body-1">{{ question.question }}</p>
 
             <v-list class="mt-2">
                 <v-list-item
