@@ -5,7 +5,7 @@ const store = useStore()
 </script>
 
 <template>
-    <v-card title="SO Test">
+    <v-card title="AK Test">
         <template #text>
             <v-btn
                 :block="true"
